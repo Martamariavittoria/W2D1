@@ -1,0 +1,115 @@
+.img{
+    height: 300px;
+    width: 200px;
+    background-color: beige;
+    margin:20px;
+    border-radius: 25px;
+    box-shadow: 3px 4px 6px darkgray;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position:relative;
+}
+
+.card_pinterest{
+    position:relative;
+    height: 300px;
+    width: 200px;
+    transition: transform 1s;
+}
+
+.card_pinterest:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+#ellipsis{
+    width: 30px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+    position: absolute;
+    top: 260px; /* Distanza dall'alto */
+    left: 160px; /* Distanza da sinistra */
+
+
+
+    transform: translateY(+50px);
+    transition: transform 1s;
+}
+
+.card_pinterest:hover #ellipsis{
+    transform: translateY(0px);
+    
+}
+
+#share{
+    width: 30px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+    position: absolute;
+    top: 260px; /* Distanza dall'alto */
+    left: 120px; /* Distanza da sinistra */
+
+    transform: translateY(+50px);
+    transition: transform 1s;
+}
+
+.card_pinterest:hover #share{
+    transform: translateY(0px);
+}
+
+#save{
+    width: 60px;
+    height: 30px;
+    color: white;
+    display: flex;
+    background-color: rgb(252, 0, 0);
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 10px; /* Distanza dall'alto */
+    left: 130px; /* Distanza da sinistra */
+
+    transform: translateY(-50px);
+    transition: transform 1s;
+}
+
+.card_pinterest:hover #save{
+    transform: translateY(0px);
+}
+
+#collegamenti{
+    width: 80px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 260px; /* Distanza dall'alto */
+    left: 10px; /* Distanza da sinistra */
+
+    transform: translateY(+50px);
+    transition: transform 1s;
+}
+
+.card_pinterest:hover #collegamenti{
+    transform: translateY(0px);
+}
